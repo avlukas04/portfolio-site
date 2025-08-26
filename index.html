@@ -1,0 +1,451 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title>Andrea - Creative Portfolio</title>
+		<meta name="description" content="Creative portfolio showcasing design, development, and creative work" />
+		
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Header -->
+			<header id="header">
+				<div class="header-content">
+					<a href="#intro" class="logo">Andrea Lukas</a>
+					<nav class="main-nav">
+						<ul>
+							<li><a href="#work">Work</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+			<!-- Intro Section -->
+			<section id="intro" class="hero-section">
+				<div class="hero-content">
+					<div class="hero-text">
+						<!-- Massive Hero Title with Your Name -->
+						<h1 class="hero-title">
+							<span class="title-line">ANDREA LUKAS</span>
+						</h1>
+						
+						<!-- Big Subtitle Title -->
+						<h2 class="hero-subtitle-title">HI, I’M ANDREA, I CREATE WITH CODE!</h2>
+						
+						<!-- Subtitle -->
+						<p class="hero-subtitle">I love turning complex problems into simple, meaningful experiences. Whether it’s designing intuitive interfaces or engineering robust systems, I craft with both creativity and precision.</p>
+						
+						<!-- Call to Action Buttons -->
+						<div class="hero-cta">
+							<a href="#work" class="btn-primary">View My Work</a>
+							<a href="#about" class="btn-secondary">Learn More</a>
+						</div>
+					</div>
+					<div class="hero-visual">
+						<div class="floating-elements">
+							<div class="floating-element" data-speed="0.5"></div>
+							<div class="floating-element" data-speed="0.3"></div>
+							<div class="floating-element" data-speed="0.7"></div>
+						</div>
+					</div>
+				</div>
+				<div class="scroll-indicator">
+					<div class="scroll-arrow"></div>
+				</div>
+			</section>
+
+			<!-- About Section -->
+			<section id="about" class="about-section">
+				<div class="container">
+					<div class="about-content">
+						<div class="about-text">
+							<h2 class="section-title">About Me</h2>
+							<p class="about-description">
+								Hi, I’m Andrea! I love building things that blend creativity with technology. 
+								I’m currently studying Computer Science and Data Science at UC Berkeley, and I’ve gotten to work on projects ranging from AI-powered building tools to web apps that mix design with generative AI.
+								What excites me most is taking an idea, figuring out how it can actually work, and then making it real, whether that means diving into the backend, sketching out a user flow, or experimenting with a new model. 
+								Outside of work, you’ll probably find me at dance practice, lifting weights, tinkering with side projects, or chasing down a new skill just because it sounds fun.
+							</p>
+							
+							<!-- Education & Experience Section -->
+							<div class="education-experience">
+								<h3 class="subsection-title">Education & Experience</h3>
+								
+								<!-- Education -->
+								<div class="education-item">
+									<h4>University of California, Berkeley</h4>
+									<p class="degree">Bachelor of Science in Computer Science & Bachelor of Science in Data Science</p>
+									<p class="timeline">2022 - 2026</p>
+									<p class="description">Focused on software engineering, machine learning, databases and web development.</p>
+								</div>
+								
+								<!-- Internships -->
+								<div class="experience-item">
+									<h4>Software Engineering Intern</h4>
+									<p class="company">Shibusa Systems</p>
+									<p class="timeline">Summer 2025</p>
+									<p class="description">Developed full stack application for Shibusa Systems, a company that provides software solutions for the construction industry.</p>
+								</div>
+								
+								<div class="experience-item">
+									<h4>Software Engineering Intern</h4>
+									<p class="company">Block</p>
+									<p class="timeline">Spring 2025</p>
+									<p class="description">Developed a utility scoring framework for MCP (Model Context Protocol) servers, and increased context window for their open source AI agent Goose.</p>
+								</div>
+							</div>
+							
+							<div class="skills-grid">
+								<div class="skill-category">
+									<h3>Design</h3>
+									<ul>
+										<li>UI/UX Design</li>
+										<li>Brand Identity</li>
+										<li>Visual Design</li>
+										<li>Prototyping</li>
+										<li>Design Systems</li>
+									</ul>
+								</div>
+								<div class="skill-category">
+									<h3>Development</h3>
+									<ul>
+										<li>Frontend Development</li>
+										<li>React & Vue.js</li>
+										<li>CSS & Animation</li>
+										<li>Performance Optimization</li>
+										<li>Responsive Design</li>
+									</ul>
+								</div>
+								<div class="skill-category">
+									<h3>Tools</h3>
+									<ul>
+										<li>Figma & Sketch</li>
+										<li>GSAP & Three.js</li>
+										<li>Git & Terminal</li>
+										<li>Adobe Creative Suite</li>
+										<li>Webflow</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="about-image">
+							<img src="images/pic05.jpg" alt="Profile" />
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Image Gallery Section with Rotating Prism -->
+			<section id="gallery" class="gallery-section">
+				<div class="container">
+					<header class="section-header">
+						<h2 class="section-title">Image Gallery</h2>
+						<p class="section-subtitle">Pictures that capture my moments and visual work in an interactive 3D prism</p>
+					</header>
+					
+					<!-- 3D Rotating Prism Showcase -->
+					<div class="prism-showcase">
+						<div class="prism-container">
+							<div class="prism" id="imagePrism">
+								<!-- Face 1: Landscape Photography -->
+								<div class="prism-face" data-image="1">
+									<div class="image-content">
+										<div class="image-number">01</div>
+										<h3>Block Final Deliverable</h3>
+										<p>Product Manager for a team of 7 developers</p>
+										<div class="image-display">
+											<img src="images/block.png" alt="Landscape Photography" />
+										</div>
+										<a href="#" class="btn-view">View Full Image</a>
+									</div>
+								</div>
+								
+								<!-- Face 2: Portrait Photography -->
+								<div class="prism-face" data-image="2">
+									<div class="image-content">
+										<div class="image-number">02</div>
+										<h3>AI Symposium</h3>
+										<p>Computational Cognitive Neuroscience Research Project: Enhancing LLM's decision making and risk analysis capabilities</p>
+										<div class="image-display">
+											<img src="images/ccn.png" alt="Portrait Photography" />
+										</div>
+										<a href="#" class="btn-view">View Full Image</a>
+									</div>
+								</div>
+								
+								<!-- Face 3: Street Photography -->
+								<div class="prism-face" data-image="3">
+									<div class="image-content">
+										<div class="image-number">03</div>
+										<h3>"Ship It" - Most Polished Award</h3>
+										<p>For Most Novel Intelligent User Interfaces. Awarded to the team whose final prototype is solidly built and practically ready to deploy to the general public, with solid interactions, polished design, and firm implementation</p>
+										<div class="image-display">
+											<img src="images/cs160.JPG" alt="Street Photography" />
+										</div>
+										<a href="#" class="btn-view">View Full Image</a>
+									</div>
+								</div>
+								
+								<!-- Face 4: Abstract Photography -->
+								<div class="prism-face" data-image="4">
+									<div class="image-content">
+										<div class="image-number">04</div>
+										<h3>Outside of Work</h3>
+										<p>Find me at dance practice</p>
+										<div class="image-display">
+											<img src="images/abba.JPG" alt="Abstract Photography" />
+										</div>
+										<a href="#" class="btn-view">View Full Image</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Prism Controls -->
+						<div class="prism-controls">
+							<button class="control-btn" id="autoRotate">Auto Rotate</button>
+							<button class="control-btn" id="pauseRotation">Pause</button>
+							<div class="rotation-speed">
+								<label for="speedSlider">Speed:</label>
+								<input type="range" id="speedSlider" min="0.1" max="2" step="0.1" value="1">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Work Section -->
+			<section id="work" class="work-section">
+				<div class="container">
+					<header class="section-header">
+						<h2 class="section-title">Selected Work</h2>
+						<p class="section-subtitle">A collection of projects that showcase my passion for design and development, each crafted with attention to detail and user experience.</p>
+					</header>
+					
+					<div class="work-grid">
+						<article class="work-item" data-category="web" data-number="01">
+							<h3>3D Code Compliance Engine</h3>
+							<p>AI-Driven Engine for 3D Building Code Compliance</p>
+							
+							<!-- Embedded Video Section -->
+							<div class="project-video-section" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef;">
+								<h4 style="margin: 0 0 15px 0; color: #333; font-size: 18px;">Project Demo Video</h4>
+								<video 
+									src="videos/final-shibusa-demo.mp4" 
+									controls 
+									autoplay 
+									muted 
+									loop
+									style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+								>
+									Your browser does not support the video tag.
+								</video>
+								<p style="margin: 10px 0 0 0; font-size: 14px; color: #666; font-style: italic;">
+									Watch the 3D Code Compliance Engine in action
+								</p>
+							</div>
+							
+
+						</article>
+						
+						<article class="work-item" data-category="branding" data-number="02">
+							<h3>AI-Agents</h3>
+							<p>MCP (Model Context Protocol) + Increase Context Window</p>
+							
+							<!-- AI Agents Project Images -->
+							<div class="project-images-section">
+								<div class="image-grid">
+									<img src="images/block_summary.png" alt="Block Summary" style="width: 150px !important; height: 150px !important; max-width: 150px !important; max-height: 150px !important; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.2);" />
+									<img src="images/block_title.png" alt="Block Title" style="width: 150px !important; height: 150px !important; max-width: 150px !important; max-height: 150px !important; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.2);" />
+									<img src="images/block_who.png" alt="Block Who" style="width: 150px !important; height: 150px !important; max-width: 150px !important; max-height: 150px !important; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.2);" />
+								</div>
+							</div>
+							
+
+						</article>
+						
+						<article class="work-item" data-category="web" data-number="03">
+							<h3>Voice to Text Transcription</h3>
+							<p>Automated Transcription of Audio Files, Exploring Entity Recognition</p>
+							
+							<!-- Voice to Text Project Image -->
+							<div class="project-images-section">
+								<div class="image-grid">
+									<img src="images/google.png" alt="Google Voice to Text" style="width: 150px !important; height: 150px !important; max-width: 150px !important; max-height: 150px !important; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.2);" />
+								</div>
+							</div>
+							
+							<button class="btn-view" data-project="voice-text">View Project</button>
+						</article>
+						
+						<article class="work-item" data-category="mobile" data-number="04">
+							<h3>Ireonada App (일어나다 - "To Wake Up")</h3>
+							<p>AI Centered UI/UX Design & Prototyping</p>
+							
+							<!-- Embedded Video Section -->
+							<div class="project-video-section" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef;">
+								<h4 style="margin: 0 0 15px 0; color: #333; font-size: 18px;">App Prototype Demo</h4>
+								<video 
+									src="videos/final-prototype-demo.mp4" 
+									controls 
+									autoplay 
+									muted 
+									loop
+									style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+								>
+									Your browser does not support the video tag.
+								</video>
+								<p style="margin: 10px 0 0 0; font-size: 14px; color: #666; font-style: italic;">
+									Watch the Ireonada App prototype in action
+								</p>
+							</div>
+							
+							<button class="btn-view" data-project="mobile-app">View Project</button>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Project Modals -->
+			<div id="projectModal" class="project-modal">
+				<div class="modal-content">
+					<span class="close-modal">&times;</span>
+					<div class="modal-body">
+						<div class="project-gallery">
+							<div class="gallery-main">
+								<img id="modalImage" src="" alt="Project Image" />
+								<div class="gallery-nav">
+									<button class="gallery-prev" id="galleryPrev">‹</button>
+									<button class="gallery-next" id="galleryNext">›</button>
+								</div>
+							</div>
+							<div class="gallery-thumbnails" id="galleryThumbnails"></div>
+						</div>
+						<div class="project-info">
+							<div class="project-header">
+								<h2 id="modalTitle"></h2>
+								<p class="project-subtitle" id="modalSubtitle"></p>
+								<div class="project-meta">
+									<span class="project-status" id="modalStatus"></span>
+									<span class="project-timeline" id="modalTimeline"></span>
+									<span class="project-team" id="modalTeam"></span>
+								</div>
+							</div>
+							
+							<div class="project-description">
+								<p id="modalDescription"></p>
+								<p id="modalLongDescription" class="long-description"></p>
+							</div>
+							
+							<div class="project-features">
+								<h3>Key Features</h3>
+								<ul id="modalFeatures"></ul>
+							</div>
+							
+							<div class="project-challenges">
+								<h3>Challenges & Solutions</h3>
+								<div class="challenge-item">
+									<h4>Challenge</h4>
+									<p id="modalChallenge"></p>
+								</div>
+								<div class="solution-item">
+									<h4>Solution</h4>
+									<p id="modalSolution"></p>
+								</div>
+							</div>
+							
+							<div class="project-details">
+								<div class="tech-stack">
+									<h3>Tech Stack</h3>
+									<div class="tech-tags" id="modalTechStack"></div>
+								</div>
+								<div class="project-links">
+									<h3>Project Links</h3>
+									<div class="link-buttons" id="modalLinks"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact Section -->
+			<section id="contact" class="contact-section">
+				<div class="container">
+					<header class="section-header">
+						<h2 class="section-title">Let's Work Together</h2>
+						<p class="section-subtitle">I'd love to hear from you to discuss and connect!</p>
+					</header>
+					
+					<div class="contact-content">
+						<div class="contact-info">
+							<div class="contact-item">
+								<h3>Email</h3>
+								<p><a href="mailto:andreavl04@berkeley.edu">andreavl04@berkeley.edu</a></p>
+							</div>
+							<div class="contact-item">
+								<h3>Location</h3>
+								<p>San Francisco, CA</p>
+							</div>
+							<div class="contact-item">
+								<h3>Social</h3>
+								<div class="social-links">
+									<a href="https://www.linkedin.com/in/andrea-lukas-b56246237/" class="social-link">LinkedIn</a>
+									<a href="https://github.com/avlukas04" class="social-link">GitHub</a>
+								</div>
+							</div>
+						</div>
+						
+						<form class="contact-form" method="post" action="#">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" required />
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" required />
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="5" required placeholder="Send me a message!"></textarea>
+							</div>
+							<button type="submit" class="btn-primary">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="footer-content">
+						<p>&copy; 2025 Andrea Lukas. All rights reserved.</p>
+						<p>Designed & Built with ❤️ using modern web technologies</p>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
