@@ -1428,7 +1428,7 @@ p {
 .prism-face {
 	position: absolute;
 	width: 550px;
-	height: 500px;
+ 	height: 500px;
 	background: var(--white);
 	border-radius: 16px;
 	box-shadow: 0 8px 32px var(--shadow-medium);
