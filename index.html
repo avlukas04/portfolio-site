@@ -1,473 +1,956 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<title>Andrea - Creative Portfolio</title>
-		<meta name="description" content="Creative portfolio showcasing design, development, and creative work" />
-		
-		<!-- Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-		
-		<!-- CSS -->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrea Lukas | Full-Stack AI Engineer & Creative Technologist</title>
+  <meta name="description" content="Portfolio of Andrea Lukas — UC Berkeley Computer Science & Data Science '26. Engineering autonomous AI agents, production 3D asset pipelines, and cognitive models at Netflix, Shibusa Systems, Block, and UC Berkeley." />
+  <meta name="keywords" content="Andrea Lukas, Full Stack Engineer, AI Engineer, UC Berkeley, Netflix, Shibusa Systems, Block, Model Context Protocol, MCP, Unity, Three.js, PyTorch" />
+  <meta name="author" content="Andrea Lukas" />
 
-		<!-- Wrapper -->
-		<div id="wrapper" class="fade-in">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Andrea Lukas | Full-Stack AI Engineer & Creative Technologist" />
+  <meta property="og:description" content="Autonomous AI agents, production 3D asset pipelines, and intelligent UI experiences." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://avlukas04.github.io/portfolio-site/" />
+  <meta property="og:image" content="images/ccn.png" />
 
-			<!-- Header -->
-			<header id="header">
-				<div class="header-content">
-					<a href="#intro" class="logo">Andrea Lukas</a>
-					<nav class="main-nav">
-						<ul>
-							<li><a href="#work">Work</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</header>
+  <!-- Google Fonts: Outfit (Display & Brand), Plus Jakarta Sans (Body), JetBrains Mono (Terminal/Code) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
 
-			<!-- Intro Section -->
-			<section id="intro" class="hero-section">
-				<div class="hero-content">
-					<div class="hero-text">
-						<!-- Massive Hero Title with Your Name -->
-						<h1 class="hero-title">
-							<span class="title-line">ANDREA LUKAS</span>
-						</h1>
-						
-						<!-- Big Subtitle Title -->
-						<h2 class="hero-subtitle-title">HI, I’M ANDREA, I CREATE WITH CODE!</h2>
-						
-						<!-- Subtitle -->
-						<p class="hero-subtitle">I love turning complex problems into simple, meaningful experiences. Whether it’s designing intuitive interfaces or engineering robust systems, I craft with both creativity and precision.</p>
-						
-						<!-- Call to Action Buttons -->
-						<div class="hero-cta">
-							<a href="#work" class="btn-primary">View My Work</a>
-							<a href="#about" class="btn-secondary">Learn More</a>
-						</div>
-					</div>
-					<div class="hero-visual">
-						<div class="floating-elements">
-							<div class="floating-element" data-speed="0.5"></div>
-							<div class="floating-element" data-speed="0.3"></div>
-							<div class="floating-element" data-speed="0.7"></div>
-						</div>
-					</div>
-				</div>
-				<div class="scroll-indicator">
-					<div class="scroll-arrow"></div>
-				</div>
-			</section>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-			<!-- About Section -->
-			<section id="about" class="about-section">
-				<div class="container">
-					<div class="about-content">
-						<div class="about-text">
-							<h2 class="section-title">About Me</h2>
-							<p class="about-description">
-								Hi, I’m Andrea! I love building things that blend creativity with technology. 
-								I’m currently studying Computer Science and Data Science at UC Berkeley, and I’ve gotten to work on projects ranging from AI-powered building tools to web apps that mix design with generative AI.
-								What excites me most is taking an idea, figuring out how it can actually work, and then making it real, whether that means diving into the backend, sketching out a user flow, or experimenting with a new model. 
-								Outside of work, you’ll probably find me at dance practice, lifting weights, tinkering with side projects, or chasing down a new skill just because it sounds fun.
-							</p>
-							
-							<!-- Education & Experience Section -->
-							<div class="education-experience">
-								<h3 class="subsection-title">Education & Experience</h3>
-								
-								<!-- Education -->
-								<div class="education-item">
-									<h4>University of California, Berkeley</h4>
-									<p class="degree">Bachelor of Science in Computer Science & Bachelor of Science in Data Science</p>
-									<p class="timeline">Minor: Public Health</p>
-									<p class="description">Focused on software engineering, machine learning, databases and web development.</p>
-								</div>
-								
- 								<!-- Internships -->
- 								<div class="experience-item">
- 									<h4>Software Engineer Intern</h4>
- 									<p class="company">Netflix</p>
- 									<p class="timeline">August 2025 – Present</p>
- 									<p class="description">Building a Unity (C#) client that transforms 2D drawings into auto-rigged, animated 3D assets, backed by an AWS pipeline using API Gateway, Lambda, SageMaker, and EC2 for scalable 3D asset generation and seamless client integration. Led CI/CD, bug tracking, and open-source compliance to ship production-ready systems.</p>
- 								</div>
- 								
-								<div class="experience-item">
-									<h4>Software Engineering Intern</h4>
-									<p class="company">Shibusa Systems</p>
-									<p class="timeline">Summer 2025</p>
-									<p class="description">Developed full stack application for Shibusa Systems, a company that provides software solutions for the construction industry.</p>
-								</div>
-								
-								<div class="experience-item">
-									<h4>Software Engineering Intern</h4>
-									<p class="company">Block</p>
-									<p class="timeline">Spring 2025</p>
-									<p class="description">Developed a utility scoring framework for MCP (Model Context Protocol) servers, and increased context window for their open source AI agent Goose.</p>
-								</div>
-							</div>
-							
-							<div class="skills-grid">
-								<div class="skill-category">
-									<h3>Design</h3>
-									<ul>
-										<li>UI/UX Design</li>
-										<li>Brand Identity</li>
-										<li>Visual Design</li>
-										<li>Prototyping</li>
-										<li>Design Systems</li>
-									</ul>
-								</div>
-								<div class="skill-category">
-									<h3>Development</h3>
-									<ul>
-										<li>Frontend Development</li>
-										<li>React & Vue.js</li>
-										<li>CSS & Animation</li>
-										<li>Performance Optimization</li>
-										<li>Responsive Design</li>
-									</ul>
-								</div>
-								<div class="skill-category">
-									<h3>Tools</h3>
-									<ul>
-										<li>Figma & Sketch</li>
-										<li>GSAP & Three.js</li>
-										<li>Git & Terminal</li>
-										<li>Adobe Creative Suite</li>
-										<li>Webflow</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="about-image">
-							<div class="about-floaters floating-elements">
-								<div class="floating-element" data-speed="0.5"></div>
-								<div class="floating-element" data-speed="0.3"></div>
-								<div class="floating-element" data-speed="0.7"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+  <!-- Ambient Aurora Orbs -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
 
-			<!-- Image Gallery Section with Rotating Prism -->
-			<section id="gallery" class="gallery-section">
-				<div class="container">
-					<header class="section-header">
-						<h2 class="section-title">Image Gallery</h2>
-						<p class="section-subtitle">Pictures that capture my moments and visual work in an interactive 3D prism</p>
-					</header>
-					
-					<!-- 3D Rotating Prism Showcase -->
-					<div class="prism-showcase">
-						<div class="prism-container">
-							<div class="prism" id="imagePrism">
-								<!-- Face 1: Block Project -->
-								<div class="prism-face" data-image="1">
-									<div class="image-content">
-										<div class="image-number">01</div>
-										<h3>Block Final Deliverable</h3>
-										<p>Product Manager for a team of 7 developers</p>
-										<div class="image-display">
-											<img src="images/block.PNG" alt="Block Project" />
-										</div>
-										<a href="#" class="btn-view">View Full Image</a>
-									</div>
-								</div>
-								
-								<!-- Face 2: AI Symposium -->
-								<div class="prism-face" data-image="2">
-									<div class="image-content">
-										<div class="image-number">02</div>
-										<h3>AI Symposium</h3>
-										<p>Computational Cognitive Neuroscience Research Project: Enhancing LLM's decision making and risk analysis capabilities</p>
-										<div class="image-display">
-											<img src="images/ccn.png" alt="AI Symposium Research" />
-										</div>
-										<a href="#" class="btn-view">View Full Image</a>
-									</div>
-								</div>
-								
-								<!-- Face 3: Ship It Award -->
-								<div class="prism-face" data-image="3">
-									<div class="image-content">
-										<div class="image-number">03</div>
-										<h3>"Ship It" - Most Polished Award</h3>
-										<p>For Most Novel Intelligent User Interfaces. Awarded to the team whose final prototype is solidly built and practically ready to deploy to the general public, with solid interactions, polished design, and firm implementation</p>
-										<div class="image-display">
-											<img src="images/cs160.JPG" alt="Ship It Award" />
-										</div>
-										<a href="#" class="btn-view">View Full Image</a>
-									</div>
-								</div>
-								
-								<!-- Face 4: Dance Practice -->
-								<div class="prism-face" data-image="4">
-									<div class="image-content">
-										<div class="image-number">04</div>
-										<h3>Outside of Work</h3>
-										<p>Find me at dance practice</p>
-										<div class="image-display">
-											<img src="images/abba.JPG" alt="Dance Practice" />
-										</div>
-										<a href="#" class="btn-view">View Full Image</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Prism Controls -->
-						<div class="prism-controls">
-							<button class="control-btn" id="autoRotate">Auto Rotate</button>
-							<button class="control-btn" id="pauseRotation">Pause</button>
-							<div class="rotation-speed">
-								<label for="speedSlider">Speed:</label>
-								<input type="range" id="speedSlider" min="0.1" max="2" step="0.1" value="1">
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+  <!-- Sticky Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-glass">
+      <a href="#hero" class="nav-brand" aria-label="Andrea Lukas Home">
+        <img src="images/IMG_3302.JPG" alt="Andrea Lukas" class="nav-avatar" />
+        <span>Andrea Lukas</span>
+      </a>
 
-			<!-- Work Section -->
-			<section id="work" class="work-section">
-				<div class="container">
-					<header class="section-header">
-						<h2 class="section-title">Selected Work</h2>
-						<p class="section-subtitle">A collection of projects that showcase my passion for design and development, each crafted with attention to detail and user experience.</p>
-					</header>
-					
-					<div class="work-grid">
-						<article class="work-item" data-category="web" data-number="01">
-							<h3>3D Code Compliance Engine</h3>
-							<p>AI-Driven Engine for 3D Building Code Compliance</p>
-							
-							<!-- Embedded Video Section -->
-							<div class="project-video-section" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef;">
-								<h4 style="margin: 0 0 15px 0; color: #333; font-size: 18px;">Project Demo Video</h4>
-								<video 
-									controls 
-									autoplay 
-									muted 
-									loop
-									playsinline
-									style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
-								>
-									<source src="videos/final-shibusa-demo.mp4" type="video/mp4" />
-									Your browser does not support the video tag.
-								</video>
-								<p style="margin: 10px 0 0 0; font-size: 14px; color: #666; font-style: italic;">
-									Watch the 3D Code Compliance Engine in action
-								</p>
-							</div>
-							
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#work" class="nav-link">Selected Work</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#beyond" class="nav-link">Beyond Code</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
 
-						</article>
-						
-						<article class="work-item" data-category="branding" data-number="02">
-							<h3>AI-Agents</h3>
-							<p>MCP (Model Context Protocol) + Increase Context Window</p>
-							
-							<!-- AI Agents Project Images -->
-							<div class="project-images-section">
-								<div class="image-grid">
-									<img src="images/block_summary.png" alt="Block Summary" style="width: 150px !important; height: 150px !important; max-width: 150px !important; max-height: 150px !important; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.2);" />
-									<img src="images/block_title.png" alt="Block Title" style="width: 150px !important; height: 150px !important; max-width: 150px !important; max-height: 150px !important; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.2);" />
-									<img src="images/block_who.png" alt="Block Who" style="width: 150px !important; height: 150px !important; max-width: 150px !important; max-height: 150px !important; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.2);" />
-								</div>
-							</div>
-							
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button id="themeToggle" class="btn-icon" aria-label="Toggle dark/light mode" title="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
 
-						</article>
-						
-						<article class="work-item" data-category="web" data-number="03">
-							<h3>Voice to Text Transcription</h3>
-							<p>Automated Transcription of Audio Files, Exploring Entity Recognition</p>
-							
-							<!-- Voice to Text Project Image -->
-							<div class="project-images-section">
-								<div class="image-grid">
-									<img src="images/google.png" alt="Google Voice to Text" style="width: 150px !important; height: 150px !important; max-width: 150px !important; max-height: 150px !important; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.2);" />
-								</div>
-							</div>
-							
-							<button class="btn-view" data-project="voice-text">View Project</button>
-						</article>
-						
-						<article class="work-item" data-category="mobile" data-number="04">
-							<h3>Ireonada App (일어나다 - "To Wake Up")</h3>
-							<p>AI Centered UI/UX Design & Prototyping</p>
-							
-							<!-- Embedded Video Section -->
-							<div class="project-video-section" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef;">
-								<h4 style="margin: 0 0 15px 0; color: #333; font-size: 18px;">App Prototype Demo</h4>
-								<video 
-									controls 
-									autoplay 
-									muted 
-									loop
-									playsinline
-									style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
-								>
-									<source src="videos/final-prototype-demo.mp4" type="video/mp4" />
-									Your browser does not support the video tag.
-								</video>
-								<p style="margin: 10px 0 0 0; font-size: 14px; color: #666; font-style: italic;">
-									Watch the Ireonada App prototype in action
-								</p>
-							</div>
+        <!-- Resume Action -->
+        <a href="https://github.com/avlukas04" target="_blank" rel="noopener noreferrer" class="btn-resume">
+          <span>Resume</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
 
-							<!-- Icon strip to enrich the card visually -->
-							<div class="icon-strip" aria-label="Tools and themes">
-								<i class="fas fa-mobile-alt" title="Mobile UI"></i>
-								<i class="fas fa-magic" title="Motion/Animations"></i>
-								<i class="fas fa-moon" title="Night mode design"></i>
-								<i class="fas fa-bell" title="Alarms"></i>
-							</div>
-							
-							<button class="btn-view" data-project="mobile-app">View Project</button>
-						</article>
-					</div>
-				</div>
-			</section>
+        <!-- Mobile Nav Toggle -->
+        <button id="mobileNavToggle" class="mobile-nav-toggle btn-icon" aria-label="Open mobile menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
 
-			<!-- Project Modals -->
-			<div id="projectModal" class="project-modal">
-				<div class="modal-content">
-					<span class="close-modal">&times;</span>
-					<div class="modal-body">
-						<div class="project-gallery">
-							<div class="gallery-main">
-								<img id="modalImage" src="" alt="Project Image" />
-								<div class="gallery-nav">
-									<button class="gallery-prev" id="galleryPrev">‹</button>
-									<button class="gallery-next" id="galleryNext">›</button>
-								</div>
-							</div>
-							<div class="gallery-thumbnails" id="galleryThumbnails"></div>
-						</div>
-						<div class="project-info">
-							<div class="project-header">
-								<h2 id="modalTitle"></h2>
-								<p class="project-subtitle" id="modalSubtitle"></p>
-								<div class="project-meta">
-									<span class="project-status" id="modalStatus"></span>
-									<span class="project-timeline" id="modalTimeline"></span>
-									<span class="project-team" id="modalTeam"></span>
-								</div>
-							</div>
-							
-							<div class="project-description">
-								<p id="modalDescription"></p>
-								<p id="modalLongDescription" class="long-description"></p>
-							</div>
-							
-							<div class="project-features">
-								<h3>Key Features</h3>
-								<ul id="modalFeatures"></ul>
-							</div>
-							
-							<div class="project-challenges">
-								<h3>Challenges & Solutions</h3>
-								<div class="challenge-item">
-									<h4>Challenge</h4>
-									<p id="modalChallenge"></p>
-								</div>
-								<div class="solution-item">
-									<h4>Solution</h4>
-									<p id="modalSolution"></p>
-								</div>
-							</div>
-							
-							<div class="project-details">
-								<div class="tech-stack">
-									<h3>Tech Stack</h3>
-									<div class="tech-tags" id="modalTechStack"></div>
-								</div>
-								<div class="project-links">
-									<h3>Project Links</h3>
-									<div class="link-buttons" id="modalLinks"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+    <!-- Mobile Drawer -->
+    <div id="mobileMenuDrawer" class="mobile-menu-drawer">
+      <a href="#work" class="nav-link">Selected Work</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#beyond" class="nav-link">Beyond Code</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </header>
 
-			<!-- Contact Section -->
-			<section id="contact" class="contact-section">
-				<div class="container">
-					<header class="section-header">
-						<h2 class="section-title">Let's Work Together</h2>
-						<p class="section-subtitle">I'd love to hear from you to discuss and connect!</p>
-					</header>
-					
-					<div class="contact-content">
-						<div class="contact-info">
-							<div class="contact-item">
-								<h3>Email</h3>
-								<p><a href="mailto:andreavl04@berkeley.edu">andreavl04@berkeley.edu</a></p>
-							</div>
-							<div class="contact-item">
-								<h3>Location</h3>
-								<p>San Francisco, CA</p>
-							</div>
-							<div class="contact-item">
-								<h3>Social</h3>
-								<div class="social-links">
-									<a href="https://www.linkedin.com/in/andrea-lukas-b56246237/" class="social-link">LinkedIn</a>
-									<a href="https://github.com/avlukas04" class="social-link">GitHub</a>
-								</div>
-							</div>
-						</div>
-						
-						<form class="contact-form" method="post" action="#">
-							<div class="form-group">
-								<label for="name">Name</label>
-								<input type="text" name="name" id="name" required />
-							</div>
-							<div class="form-group">
-								<label for="email">Email</label>
-								<input type="email" name="email" id="email" required />
-							</div>
-							<div class="form-group">
-								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="5" required placeholder="Send me a message!"></textarea>
-							</div>
-							<button type="submit" class="btn-primary">Send Message</button>
-						</form>
-					</div>
-				</div>
-			</section>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-badge-container">
+          <span class="pulse-dot"></span>
+          <span data-scramble="true">Open to Work: Full-Time AI / SWE Roles • UC Berkeley CS + DS New Grad</span>
+        </div>
 
-			<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<div class="footer-content">
-						<p>&copy; 2025 Andrea Lukas. All rights reserved.</p>
-						<p>Designed & Built with ❤️ using modern web technologies</p>
-					</div>
-				</div>
-			</footer>
+        <h1 class="hero-title">
+          Building intelligent systems with <span class="text-gradient">creative precision.</span>
+        </h1>
 
-		</div>
+        <p class="hero-subtitle">
+          Hey there! I’m <strong>Andrea Lukas</strong> — a UC Berkeley Computer Science &amp; Data Science new graduate. I build at the intersection of high-scale AI systems, autonomous agents, and 3D spatial pipelines. From automating 2D-to-3D character rigging at Netflix to testing 300+ MCP agent servers at Block, I craft software that feels alive, robust, and meaningful.
+        </p>
 
-		<!-- Scripts -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
-		<script src="assets/js/main.js"></script>
+        <div class="hero-cta-group">
+          <a href="#work" class="btn-primary">
+            <span>Explore Selected Work</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
 
-	</body>
+          <a href="#contact" class="btn-secondary">
+            <span>Let's Connect</span>
+          </a>
+
+          <button id="openTerminalBtn" class="btn-terminal-trigger" title="Launch interactive agent terminal">
+            <span data-scramble="true">⚡ agent@mcp:~$</span>
+          </button>
+        </div>
+
+        <!-- Story Chapters Navigation (Pure Section Navigation) -->
+        <nav class="story-nav-bar glass-spotlight" aria-label="Story Chapters Navigation">
+          <span class="story-nav-label">Explore Story:</span>
+          <a href="#work" class="story-nav-pill active">
+            <span class="pill-dot"></span>
+            <span>💻 Selected Work</span>
+          </a>
+          <a href="#terminal" class="story-nav-pill">
+            <span class="pill-dot"></span>
+            <span>⚡ Interactive MCP</span>
+          </a>
+          <a href="#experience" class="story-nav-pill">
+            <span class="pill-dot"></span>
+            <span>🎓 Career &amp; Degrees</span>
+          </a>
+          <a href="#beyond" class="story-nav-pill">
+            <span class="pill-dot"></span>
+            <span>💃 Beyond Code &amp; Dance</span>
+          </a>
+          <a href="#skills" class="story-nav-pill">
+            <span class="pill-dot"></span>
+            <span>🛠 Tech Matrix</span>
+          </a>
+          <a href="#contact" class="story-nav-pill">
+            <span class="pill-dot"></span>
+            <span>📬 Connect</span>
+          </a>
+        </nav>
+
+        <!-- Impact Metrics Bar -->
+        <div class="metrics-grid">
+          <div class="metric-card glass-spotlight">
+            <div class="metric-num"><span class="counter" data-target="300">0</span><span>+</span></div>
+            <div class="metric-label">MCP Server Endpoints Evaluated at Block</div>
+          </div>
+          <div class="metric-card glass-spotlight">
+            <div class="metric-num"><span class="counter" data-target="70">0</span><span>%</span></div>
+            <div class="metric-label">Review Time Reduced (Shibusa / City of Carmel)</div>
+          </div>
+          <div class="metric-card glass-spotlight">
+            <div class="metric-num">+<span class="counter" data-target="63">0</span><span>%</span></div>
+            <div class="metric-label">Cognitive Modeling Benchmark Gain (CogSci Lab)</div>
+          </div>
+          <div class="metric-card glass-spotlight">
+            <div class="metric-num">🏆 <span>CS160</span></div>
+            <div class="metric-label">"Ship It" Most Polished Prototype Award Winner</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive MCP Agent Terminal Easter Egg -->
+    <section class="terminal-section" id="terminal" style="padding: 1rem 0;">
+      <div class="container">
+        <div class="mcp-terminal-container">
+          <div class="mcp-terminal-header">
+            <div class="terminal-controls">
+              <span class="term-dot term-red"></span>
+              <span class="term-dot term-yellow"></span>
+              <span class="term-dot term-green"></span>
+            </div>
+            <div class="terminal-title">
+              <span>agent@andrea-mcp: ~</span>
+              <span class="terminal-badge">MCP v1.2</span>
+            </div>
+            <div style="font-size: 0.75rem; color: #8B949E; font-family: var(--font-mono);">
+              Interactive Console
+            </div>
+          </div>
+
+          <div class="terminal-body" id="termOutput">
+            <div class="term-line"><span class="term-success">● MCP Agent Protocol Initialized.</span> Andrea Lukas AI agent context loaded.</div>
+            <div class="term-line">Type <span class="term-highlight">help</span> or click one of the quick commands below to inspect capabilities.</div>
+          </div>
+
+          <div class="terminal-input-row" style="padding: 0.75rem 1.5rem; background: #0A0E15; border-top: 1px solid rgba(255,255,255,0.06);">
+            <span class="term-prompt">agent@andrea-mcp:~$</span>
+            <input type="text" id="termInput" class="terminal-input" placeholder="try 'mcp --inspect' or 'model --benchmarks'..." autocomplete="off" spellcheck="false" />
+          </div>
+
+          <div class="terminal-chips">
+            <span class="chip-label">Quick run:</span>
+            <button class="term-chip" data-cmd="mcp --inspect">mcp --inspect</button>
+            <button class="term-chip" data-cmd="model --benchmarks">model --benchmarks</button>
+            <button class="term-chip" data-cmd="eval --skills">eval --skills</button>
+            <button class="term-chip" data-cmd="cat resume">cat resume</button>
+            <button class="term-chip" data-cmd="contact">contact</button>
+            <button class="term-chip" data-cmd="clear">clear</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work & Bento Showcase -->
+    <section id="work">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag" data-scramble="true">Featured Engineering</span>
+          <h2 class="section-title">Selected Work & Architectures</h2>
+          <p class="section-desc">
+            A curated portfolio spanning scalable AI backends, 3D spatial reasoning algorithms, autonomous agent frameworks, and award-winning intelligent user interfaces.
+          </p>
+        </header>
+
+        <!-- Dedicated In-Section Project Filter Toolbar -->
+        <div class="project-filter-toolbar glass-spotlight" role="toolbar" aria-label="Filter Engineering Projects">
+          <div class="filter-header-row">
+            <span class="filter-title-label">Filter Projects:</span>
+            <span class="filter-status-badge" id="filterStatusBadge">Showing All 7 Projects</span>
+          </div>
+          <div class="project-filter-pills">
+            <button class="project-filter-btn active" data-filter="all">
+              <span>All Projects</span>
+              <span class="count-tag">7</span>
+            </button>
+            <button class="project-filter-btn" data-filter="ai">
+              <span>🤖 AI &amp; Autonomous Agents</span>
+              <span class="count-tag">6</span>
+            </button>
+            <button class="project-filter-btn" data-filter="creative">
+              <span>🎮 3D &amp; Spatial Systems</span>
+              <span class="count-tag">4</span>
+            </button>
+            <button class="project-filter-btn" data-filter="systems">
+              <span>⚡ Distributed Systems &amp; Data</span>
+              <span class="count-tag">5</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="work-bento-grid">
+
+          <!-- CARD 1: SHIBUSA SYSTEMS (Featured 12-col with Multi-Tab Media: Video, Diagram, Stair Visualizer) -->
+          <article class="bento-card bento-col-12 glass-spotlight" data-category="ai creative systems">
+            <div class="bento-media-split">
+              <!-- Left: Interactive Multi-Tab Media Showcase -->
+              <div class="bento-media-container media-tab-container">
+                <div class="media-tab-bar">
+                  <button class="media-tab-btn active" data-target="shibusaVideoPane">▶ Video Demo</button>
+                  <button class="media-tab-btn" data-target="shibusaArchPane">🗺 Pipeline Architecture</button>
+                  <button class="media-tab-btn" data-target="shibusaStairPane">📐 3D Stair Visualizer</button>
+                </div>
+
+                <!-- Video Pane -->
+                <div class="tab-pane active" id="shibusaVideoPane">
+                  <div class="video-box">
+                    <video controls muted loop playsinline poster="images/shibusa-stair-visualizer.png">
+                      <source src="videos/final-shibusa-demo.mp4" type="video/mp4" />
+                      Your browser does not support HTML5 video.
+                    </video>
+                    <div class="video-overlay-bar">
+                      <span style="font-size: 0.8rem; color: #FFF; font-family: var(--font-mono);">3D Code Compliance Engine</span>
+                      <div style="display: flex; gap: 0.5rem;">
+                        <button class="video-ctrl-btn ctrl-play" title="Play/Pause">▶</button>
+                        <button class="video-ctrl-btn ctrl-mute" title="Mute/Unmute">🔇</button>
+                        <button class="video-ctrl-btn ctrl-fs" title="Fullscreen">⛶</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Architecture Diagram Pane -->
+                <div class="tab-pane" id="shibusaArchPane">
+                  <img src="images/diagram-export-8-9-2025-10_44_11-AM.png" alt="Shibusa Compliance Architecture: Revit SVF translation to 3D Viewer & Report" />
+                </div>
+
+                <!-- 3D Stair Visualizer Pane -->
+                <div class="tab-pane" id="shibusaStairPane">
+                  <img src="images/shibusa-stair-visualizer.png" alt="Interactive 3D Stair Bounding Box Violation Detection" />
+                </div>
+              </div>
+
+              <!-- Right: Content & Impact -->
+              <div class="bento-content">
+                <div class="bento-badge-row">
+                  <span class="bento-badge emerald">Shibusa Systems</span>
+                  <span class="bento-date">Summer 2025 • Monterey, CA</span>
+                </div>
+
+                <h3 class="bento-title">3D Code Compliance Engine</h3>
+                <div class="bento-role">Software Engineer Intern</div>
+
+                <p class="bento-desc">
+                  Navigating municipal building codes usually means city planners spending up to 10 months thumbing through hundreds of blueprint pages. I built a 3D spatial reasoning engine that parses Revit BIM models directly, catching 50+ structural and zoning violations in minutes so affordable housing projects can get approved in weeks instead of a year.
+                </p>
+
+                <ul class="bento-highlights">
+                  <li>Engineered a spatial reasoning algorithm with Autodesk Model Derivative API to detect <strong>50+ IBC/IRC violations</strong> in 3D Revit models.</li>
+                  <li>Slashed building permit evaluation timelines from <strong>~10 months to under 1 month</strong> across 200+ municipal models.</li>
+                  <li>Generated interactive 3D bounding-box visualizations directly for Carmel Planning review officers.</li>
+                </ul>
+
+                <div class="tech-tags">
+                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">FastAPI</span>
+                  <span class="tech-pill">Autodesk API</span>
+                  <span class="tech-pill">Selenium</span>
+                  <span class="tech-pill">PostgreSQL</span>
+                  <span class="tech-pill">Three.js</span>
+                </div>
+
+                <div class="bento-footer">
+                  <button class="btn-card-action" data-open-study="shibusa">
+                    <span>Read Full Case Study</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2: NETFLIX (Col-7: 3D Asset Creation & Character Rigging) -->
+          <article class="bento-card bento-col-7 glass-spotlight" data-category="ai creative systems">
+            <div class="card-image-showcase">
+              <img src="images/bg.jpg" alt="Netflix 3D Asset Creation Pipeline" />
+              <div style="position: absolute; bottom: 1rem; left: 1.5rem; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); padding: 0.4rem 0.8rem; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.1); font-family: var(--font-mono); font-size: 0.78rem; color: #E50914;">
+                Netflix • 2D-to-3D Auto-Rigging
+              </div>
+            </div>
+
+            <div class="bento-content">
+              <div class="bento-badge-row">
+                <span class="bento-badge" style="color: #F87171; border-color: rgba(248,113,113,0.3); background: rgba(248,113,113,0.15);">Netflix</span>
+                <span class="bento-date">Fall 2025 • Los Gatos, CA</span>
+              </div>
+
+              <h3 class="bento-title">3D Asset Generation & Character Rigging</h3>
+              <div class="bento-role">Software Engineer Intern (Contract)</div>
+
+              <p class="bento-desc">
+                Animators typically spend days manually sculpting and rigging flat character concept art. I built an end-to-end pipeline that takes 2D hand-drawn sketches, normalizes them into clean 3D T-poses with multimodal vision models, and auto-rigs skeletons in Unity—giving creators instant, animatable models directly from their sketchbook.
+              </p>
+
+              <ul class="bento-highlights">
+                <li>Built a Unity (C#) & Python pipeline that takes hand-drawn character sheets and automatically generates animatable bone rigs.</li>
+                <li>Chained multi-model VLMs (<strong>Llama-4-Scout VLM</strong>, <strong>Qwen</strong>, <strong>FLUX.1</strong>) to normalize arbitrary perspective poses into uniform 3D T-poses.</li>
+                <li>Deployed and scaled low-latency inference microservices on <strong>GCP Cloud Run</strong>, <strong>Vertex AI</strong>, and Compute Engine.</li>
+              </ul>
+
+              <div class="tech-tags">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Unity (C#)</span>
+                <span class="tech-pill">GCP Cloud Run</span>
+                <span class="tech-pill">Vertex AI</span>
+                <span class="tech-pill">Llama 4 Scout</span>
+                <span class="tech-pill">FLUX.1</span>
+              </div>
+
+              <div class="bento-footer">
+                <button class="btn-card-action" data-open-study="netflix">
+                  <span>Explore Architecture</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3: BLOCK (Col-5: MCP Server Scoring Suite & Goose AI) -->
+          <article class="bento-card bento-col-5 glass-spotlight" data-category="ai systems">
+            <div class="card-image-showcase">
+              <img src="images/block.PNG" alt="Block Deliverable Presentation Team" />
+              <div style="position: absolute; bottom: 1rem; left: 1.5rem; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); padding: 0.4rem 0.8rem; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.1); font-family: var(--font-mono); font-size: 0.78rem; color: #38BDF8;">
+                Block, Inc. • MCP Protocol & Goose Agent
+              </div>
+            </div>
+
+            <div class="bento-content">
+              <div class="bento-badge-row">
+                <span class="bento-badge blue">Block, Inc.</span>
+                <span class="bento-date">Spring 2025 • SF</span>
+              </div>
+
+              <h3 class="bento-title">MCP Scoring & Goose AI Agent</h3>
+              <div class="bento-role">Software Engineer (Contract)</div>
+
+              <p class="bento-desc">
+                AI developer agents are only as capable as the external tools they can safely invoke. At Block, I engineered evaluation and reliability benchmarks across 300+ Model Context Protocol (MCP) servers for Goose, our open-source agent, and solved context-exhaustion memory drops so engineers can trust AI with production repos.
+              </p>
+
+              <ul class="bento-highlights">
+                <li>Built an evaluation framework across <strong>300+ Model Context Protocol (MCP)</strong> endpoints, boosting agent interoperability by <strong>18%</strong>.</li>
+                <li>Designed an edge-case failure diagnostic dashboard across 20+ frontier LLM context-overflow scenarios.</li>
+                <li>Integrated RAG context compression with tiktoken, lifting long-context agent performance by <strong>25%</strong>.</li>
+              </ul>
+
+              <div class="tech-tags">
+                <span class="tech-pill">MCP Protocol</span>
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Goose AI</span>
+                <span class="tech-pill">RAG</span>
+                <span class="tech-pill">tiktoken</span>
+              </div>
+
+              <div class="bento-footer">
+                <button class="btn-card-action" data-open-study="block">
+                  <span>View Details</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4: IREONADA APP (Col-6: CS160 "Ship It" Most Polished Award) -->
+          <article class="bento-card bento-col-6 glass-spotlight" data-category="ai creative">
+            <div class="phone-mockup-wrapper">
+              <div class="phone-frame">
+                <video controls muted loop playsinline>
+                  <source src="videos/final-prototype-demo.mp4" type="video/mp4" />
+                  Your browser does not support video.
+                </video>
+              </div>
+            </div>
+
+            <div class="bento-content">
+              <div class="trophy-badge">
+                <span>🏆 Winner: CS160 "Ship It" Most Polished Prototype Award</span>
+              </div>
+
+              <h3 class="bento-title">Ireonada (일어나다)</h3>
+              <div class="bento-role">Intelligent UI/UX Design & Prototyping</div>
+
+              <p class="bento-desc">
+                Most alarm apps violently wrench you awake and ruin your morning. I designed and coded an adaptive circadian waking companion that blends gentle ambient soundscapes, intelligent sleep tracking, and micro-habits to help you wake up feeling human. Won UC Berkeley's CS160 "Ship It" Most Polished Prototype Award.
+              </p>
+
+              <div class="tech-tags">
+                <span class="tech-pill">React Native</span>
+                <span class="tech-pill">Motion Design</span>
+                <span class="tech-pill">User Research</span>
+                <span class="tech-pill">Circadian Logic</span>
+                <span class="tech-pill">Figma</span>
+              </div>
+
+              <div class="bento-footer">
+                <button class="btn-card-action" data-open-study="ireonada">
+                  <span>Watch Prototype Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 5: UC BERKELEY COGNITIVE NEUROSCIENCE LAB (Col-6) -->
+          <article class="bento-card bento-col-6 glass-spotlight" data-category="ai">
+            <div class="card-image-showcase">
+              <img src="images/ccn.png" alt="Andrea Lukas presenting Cognitive Neuroscience poster at Berkeley AI Symposium" />
+              <div style="position: absolute; bottom: 1rem; left: 1.5rem; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); padding: 0.4rem 0.8rem; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.1); font-family: var(--font-mono); font-size: 0.78rem; color: #34D399;">
+                Berkeley AI Symposium • Collins Lab
+              </div>
+            </div>
+
+            <div class="bento-content">
+              <div class="bento-badge-row">
+                <span class="bento-badge emerald">UC Berkeley Collins Lab</span>
+                <span class="bento-date">Aug 2024 – May 2025</span>
+              </div>
+
+              <h3 class="bento-title">Cognitive Modeling & Bandit LLM Benchmarking</h3>
+              <div class="bento-role">Machine Learning Researcher</div>
+
+              <p class="bento-desc">
+                Do frontier language models make decisions like humans do under risk and uncertainty? At the Collins Lab, I model LLM behavior on behavioral economics and multi-armed bandit benchmarks—discovering how structured cognitive prompts can boost decision-making accuracy by 63% without retraining.
+              </p>
+
+              <ul class="bento-highlights">
+                <li>Extended the Centaur cognitive framework to benchmark frontier LLMs on multi-armed bandit tasks (Choices13k), achieving a <strong>+63% accuracy boost</strong> without weight retraining.</li>
+                <li>Engineered a structured prompting and fine-tuning pipeline on 1,000+ cognitive decision scenarios (+50% decision fidelity).</li>
+              </ul>
+
+              <div class="tech-tags">
+                <span class="tech-pill">PyTorch</span>
+                <span class="tech-pill">Hugging Face</span>
+                <span class="tech-pill">Centaur Modeling</span>
+                <span class="tech-pill">Multi-Armed Bandits</span>
+                <span class="tech-pill">LLaMA 405B</span>
+              </div>
+
+              <div class="bento-footer">
+                <button class="btn-card-action" data-open-study="cogsci">
+                  <span>View Research Details</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 6: LIFEOPS (Col-6: RL Environment) -->
+          <article class="bento-card bento-col-6 glass-spotlight" data-category="ai systems">
+            <div class="bento-content">
+              <div class="bento-badge-row">
+                <span class="bento-badge amber">RL & Agent Systems</span>
+                <span class="bento-date">Open Source Project</span>
+              </div>
+
+              <h3 class="bento-title">LifeOps: RL Scheduling Agent</h3>
+              <div class="bento-role">Gym Environment & Groq LLM Agent</div>
+
+              <p class="bento-desc">
+                Standard calendar apps don't understand burnout or how humans actually focus. I built a custom Gym environment and trained an RL agent that leverages Groq-accelerated Llama models to balance study blocks, dance rehearsals, and downtime—adapting dynamically whenever priorities shift.
+              </p>
+
+              <ul class="bento-highlights">
+                <li>Architected a custom Gym environment with stateful reward shaping for cognitive load, sleep health, and deadline urgency.</li>
+                <li>Integrated Groq-accelerated Llama models for sub-second reactive rescheduling deployed on Hugging Face Spaces.</li>
+              </ul>
+
+              <div class="tech-tags">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Reinforcement Learning</span>
+                <span class="tech-pill">HF TRL</span>
+                <span class="tech-pill">Groq API</span>
+                <span class="tech-pill">Hugging Face Spaces</span>
+              </div>
+
+              <div class="bento-footer">
+                <button class="btn-card-action" data-open-study="lifeops">
+                  <span>View System Architecture</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 7: CIVICTRACK (Col-6: Data Engineering Pipeline) -->
+          <article class="bento-card bento-col-6 glass-spotlight" data-category="systems creative">
+            <div class="bento-content">
+              <div class="bento-badge-row">
+                <span class="bento-badge cyan">Data Engineering</span>
+                <span class="bento-date">Production Pipeline</span>
+              </div>
+
+              <h3 class="bento-title">CivicTrack: Food Safety Data Pipeline</h3>
+              <div class="bento-role">Dockerized Ingestion & Fast Query Service</div>
+
+              <p class="bento-desc">
+                Ever wondered how your favorite restaurant scored on health inspections? I built a resilient data pipeline streaming live NYC public health records with automated idempotent upserts, strict 3NF schema validation, and sub-100ms FastAPI spatial queries.
+              </p>
+
+              <ul class="bento-highlights">
+                <li>Engineered automated ETL with Socrata API, robust null-handling, and append-only audit logging in PostgreSQL.</li>
+                <li>Containerized complete pipeline with Docker and served high-throughput filtered REST endpoints.</li>
+              </ul>
+
+              <div class="tech-tags">
+                <span class="tech-pill">FastAPI</span>
+                <span class="tech-pill">PostgreSQL</span>
+                <span class="tech-pill">Docker</span>
+                <span class="tech-pill">Pydantic</span>
+                <span class="tech-pill">psycopg2</span>
+                <span class="tech-pill">Socrata API</span>
+              </div>
+
+              <div class="bento-footer">
+                <button class="btn-card-action" data-open-study="civictrack">
+                  <span>Inspect Data Architecture</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Beyond The Screen (Personality & Life Bento) -->
+    <section id="beyond" style="background: rgba(255, 255, 255, 0.01); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag" data-scramble="true">Beyond The Code</span>
+          <h2 class="section-title">Motion, Community & Drive</h2>
+          <p class="section-desc">
+            Who I am when I step away from the terminal. Great engineering thrives on rhythm, collaborative intensity, physical endurance, and curiosity.
+          </p>
+        </header>
+
+        <div class="personality-grid">
+
+          <!-- Card 1: ABBA Modern Dance -->
+          <div class="personality-card glass-spotlight">
+            <div class="personality-img-wrap">
+              <img src="images/abba.JPG" alt="Andrea Lukas with ABBA Modern Dance Team at UC Berkeley" />
+              <span class="personality-tag">Choreography & Motion</span>
+            </div>
+            <div class="personality-content">
+              <h3>ABBA Modern Dance Team</h3>
+              <p>
+                Dancer on UC Berkeley’s premier collegiate modern dance team. Dance instills the same values I bring to software: meticulous rhythm, kinetic spatial awareness, and synchronizing a large team to deliver a seamless performance.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2: Generative AI @ Berkeley Leadership -->
+          <div class="personality-card glass-spotlight">
+            <div class="personality-img-wrap">
+              <img src="images/IMG_8545.PNG" alt="Andrea Lukas and Generative AI at Berkeley team on stage at Kindred Ventures" />
+              <span class="personality-tag">Community & Leadership</span>
+            </div>
+            <div class="personality-content">
+              <h3>Generative AI @ Berkeley</h3>
+              <p>
+                Leading student engineers and collaborating with high-growth AI companies. Presenting live technical deliverables on stage at Kindred Ventures in San Francisco and fostering the next wave of AI builders.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3: Coastal Energy & Fitness -->
+          <div class="personality-card glass-spotlight">
+            <div class="personality-img-wrap">
+              <img src="images/IMG_3302.JPG" alt="Andrea Lukas outdoors by the coast" />
+              <span class="personality-tag">Grit & Stamina</span>
+            </div>
+            <div class="personality-content">
+              <h3>Endurance & Fitness</h3>
+              <p>
+                Whether it's lifting heavy in the gym, chasing coastal runs along Monterey and the Bay, or tinkering with 3D printers, staying physically challenged keeps my focus razor sharp for complex engineering challenges.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Timeline -->
+    <section id="experience">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag" data-scramble="true">Career Journey</span>
+          <h2 class="section-title">Experience & Education</h2>
+          <p class="section-desc">
+            Industry engineering experience, research publications, and academic foundation at UC Berkeley.
+          </p>
+        </header>
+
+        <div class="experience-timeline">
+          <div class="timeline-spine"></div>
+
+          <!-- Item 1: Netflix -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-spotlight">
+              <div class="timeline-header">
+                <span class="timeline-company">Netflix</span>
+                <span class="timeline-date">Aug 2025 – Dec 2025</span>
+              </div>
+              <div class="timeline-role">Software Engineer Intern (Contract) • Los Gatos, CA</div>
+              <ul class="timeline-bullets">
+                <li>Deployed and owned scalable GCP backend (Cloud Run, Vertex AI, Compute Engine) to support production 3D asset generation.</li>
+                <li>Engineered Unity (C#) and Python pipeline that automatically rigs and animates hand-drawn 2D characters.</li>
+                <li>Integrated multi-model AI pipeline (Llama-4-Scout VLM, Qwen, FLUX.1) via Hugging Face Inference API for T-pose normalization.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 2: Shibusa Systems -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-spotlight">
+              <div class="timeline-header">
+                <span class="timeline-company">Shibusa Systems</span>
+                <span class="timeline-date">May 2025 – Aug 2025</span>
+              </div>
+              <div class="timeline-role">Software Engineer Intern • Monterey, CA</div>
+              <ul class="timeline-bullets">
+                <li>Designed full-stack compliance automation system (Selenium, FastAPI) cutting review time from ~10 months to &lt;1 month across 200+ models.</li>
+                <li>Developed spatial reasoning algorithm (Autodesk Model Derivative API) detecting 50+ IBC violations in 3D Revit models.</li>
+                <li>Integrated workflow into City of Carmel Planning team's live process, cutting permit review evaluation time by 70%.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 3: Block (Square) -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-spotlight">
+              <div class="timeline-header">
+                <span class="timeline-company">Block, Inc. (Square)</span>
+                <span class="timeline-date">Jan 2025 – May 2025</span>
+              </div>
+              <div class="timeline-role">Software Engineer (Contract) • San Francisco, CA</div>
+              <ul class="timeline-bullets">
+                <li>Built evaluation scoring framework for 300+ Model Context Protocol (MCP) endpoints, boosting agent interoperability scores 18%.</li>
+                <li>Constructed diagnostic benchmarking suite for LLM context limits across 20+ edge cases.</li>
+                <li>Integrated RAG pipelines with context compression into Goose AI Agent (+25% long-context speed).</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 4: UC Berkeley CogSci Lab -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-spotlight">
+              <div class="timeline-header">
+                <span class="timeline-company">UC Berkeley Cognitive Neuroscience Lab</span>
+                <span class="timeline-date">Aug 2024 – May 2025</span>
+              </div>
+              <div class="timeline-role">Machine Learning Researcher • Berkeley, CA</div>
+              <ul class="timeline-bullets">
+                <li>Executed PyTorch / Hugging Face fine-tuning pipeline on 1,000+ structured prompts for risk and decision-making (+50% accuracy).</li>
+                <li>Reproduced Centaur cognitive modeling framework to benchmark GPT-4o & LLaMA 405B on multi-armed bandits (+63% accuracy boost).</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 5: UC Berkeley Education -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-spotlight">
+              <div class="timeline-header">
+                <span class="timeline-company">University of California, Berkeley</span>
+                <span class="timeline-date">Class of May 2026</span>
+              </div>
+              <div class="timeline-role">B.A. Computer Science & B.A. Data Science (Concentration: Public Health) • GPA: 3.64</div>
+              <ul class="timeline-bullets">
+                <li>Coursework: Data Structures, Computer Security, Internet Network Architecture, Computer Architecture, Data Engineering, Machine Learning, Deep Learning.</li>
+                <li>Honors: CS160 "Ship It" Most Polished Prototype Award Winner.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix -->
+    <section id="skills">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag" data-scramble="true">Core Competencies</span>
+          <h2 class="section-title">Technical Skills & Toolchain</h2>
+          <p class="section-desc">
+            Technologies and frameworks I deploy to build high-scale, reliable software and generative AI applications.
+          </p>
+        </header>
+
+        <div class="skills-container">
+
+          <div class="skill-box glass-spotlight">
+            <h3 class="skill-box-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-indigo)" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <span>Languages</span>
+            </h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Go</span>
+              <span class="skill-pill">C</span>
+              <span class="skill-pill">C++</span>
+              <span class="skill-pill">C#</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">TypeScript</span>
+            </div>
+          </div>
+
+          <div class="skill-box glass-spotlight">
+            <h3 class="skill-box-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-violet)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m4.93 4.93 4.24 4.24"></path><path d="m14.83 9.17 4.24-4.24"></path><path d="m14.83 14.83 4.24 4.24"></path><path d="m9.17 14.83-4.24 4.24"></path></svg>
+              <span>AI, ML & Agentic</span>
+            </h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill">Model Context Protocol (MCP)</span>
+              <span class="skill-pill">PyTorch</span>
+              <span class="skill-pill">Hugging Face (TRL, Transformers)</span>
+              <span class="skill-pill">Groq API</span>
+              <span class="skill-pill">RAG & Context Compression</span>
+              <span class="skill-pill">Reinforcement Learning</span>
+              <span class="skill-pill">Vision-Language Models (VLMs)</span>
+              <span class="skill-pill">FLUX.1</span>
+            </div>
+          </div>
+
+          <div class="skill-box glass-spotlight">
+            <h3 class="skill-box-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path></svg>
+              <span>Cloud & Infrastructure</span>
+            </h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill">GCP (Cloud Run, Vertex AI, GCE)</span>
+              <span class="skill-pill">AWS</span>
+              <span class="skill-pill">Docker</span>
+              <span class="skill-pill">GitHub Actions / CI/CD</span>
+              <span class="skill-pill">FastAPI</span>
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-box glass-spotlight">
+            <h3 class="skill-box-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-emerald)" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              <span>Databases & Storage</span>
+            </h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">Redis</span>
+              <span class="skill-pill">Prisma ORM</span>
+              <span class="skill-pill">Pydantic / psycopg2</span>
+              <span class="skill-pill">ETL Pipelines</span>
+            </div>
+          </div>
+
+          <div class="skill-box glass-spotlight">
+            <h3 class="skill-box-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-amber)" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              <span>3D & Creative Engineering</span>
+            </h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill">Unity (C#)</span>
+              <span class="skill-pill">Autodesk Model Derivative API</span>
+              <span class="skill-pill">Revit SVF</span>
+              <span class="skill-pill">Three.js</span>
+              <span class="skill-pill">Figma</span>
+              <span class="skill-pill">3D Prototyping</span>
+            </div>
+          </div>
+
+          <div class="skill-box glass-spotlight">
+            <h3 class="skill-box-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-rose)" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+              <span>Development Practices</span>
+            </h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill">Git / GitHub</span>
+              <span class="skill-pill">Unit & Integration Testing</span>
+              <span class="skill-pill">Model Evaluation & Benchmarking</span>
+              <span class="skill-pill">Idempotent Data Design</span>
+              <span class="skill-pill">Clean Code</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-card glass-spotlight">
+          <h2>Let's build something extraordinary.</h2>
+          <p>
+            Whether you're interested in autonomous AI agents, 3D pipelines, research collaboration, or just want to chat about dance and technology — my inbox is always open.
+          </p>
+
+          <div class="contact-channels">
+            <a href="mailto:andreavl04@berkeley.edu" class="channel-btn primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m4 4 16 16m0-16L4 20"></path></svg>
+              <span>andreavl04@berkeley.edu</span>
+            </a>
+
+            <a href="https://linkedin.com/in/andrea-lukas-b56246237" target="_blank" rel="noopener noreferrer" class="channel-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="https://github.com/avlukas04" target="_blank" rel="noopener noreferrer" class="channel-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <div style="margin-top: 2rem; font-size: 0.85rem; color: var(--text-muted);">
+            📍 Based in Berkeley &amp; San Francisco Bay Area, CA
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2026 Andrea Lukas. All rights reserved.</p>
+        <p style="font-size: 0.8rem;">Engineered with semantic HTML5, modern CSS variables, and zero-build vanilla JS for ultra-fast GitHub Pages delivery.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Deep-Dive Modal Drawer -->
+  <div id="caseStudyModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-window glass-spotlight">
+      <button id="closeModalBtn" class="modal-close-btn" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="modal-header-hero" id="modalHeroMedia">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="modal-body-content">
+        <div class="modal-title-row">
+          <h2 class="modal-title" id="modalTitle">Project Title</h2>
+          <div class="modal-subtitle" id="modalSubtitle">Role / Timeline</div>
+        </div>
+
+        <div class="modal-gallery-strip" id="modalThumbStrip">
+          <!-- Thumbnail strip if available -->
+        </div>
+
+        <div class="modal-narrative" id="modalNarrative">
+          <!-- Long narrative description -->
+        </div>
+
+        <div class="metrics-grid" id="modalMetrics" style="margin-bottom: 2rem;">
+          <!-- Key metrics -->
+        </div>
+
+        <h3 class="modal-section-h3">Technologies &amp; Architecture</h3>
+        <div class="tech-tags" id="modalTechStack" style="margin-bottom: 2rem;">
+          <!-- Tech pills -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/portfolio.js"></script>
+</body>
 </html>
