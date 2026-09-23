@@ -500,7 +500,7 @@ const projectModalData = {
       src: 'images/bg.jpg'
     },
     narrative: `
-      Animators typically spend days manually sculpting and rigging flat character concept art. At Netflix, I built an end-to-end pipeline that takes flat hand-drawn character sheets, normalizes them into clean 3D T-poses with multimodal vision models, and auto-rigs skeletons in Unity—giving creators instant, animatable models directly from their sketchbook.
+      Animators typically spend days manually sculpting and rigging flat character concept art. At Netflix, I built an end-to-end pipeline that takes flat hand-drawn character sheets, normalizes them into clean 3D T-poses with multimodal vision models, and auto-rigs skeletons in Unity, giving creators instant, animatable models directly from their sketchbook.
       <br><br>
       To make this reliable in production, I deployed and owned scalable microservices on GCP (Cloud Run, Vertex AI, Compute Engine) that handled heavy inference payloads with low latency.
       <br><br>
